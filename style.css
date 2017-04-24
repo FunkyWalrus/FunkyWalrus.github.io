@@ -1,0 +1,95 @@
+body{
+	background-color: rgb(255,255,255);
+	font-size: 13px;
+}
+h1{
+	color: rgb(101,155,235);
+	font-size: 3em;
+	/*em - proportional difference to body -- in this case 3x*/
+}
+p{
+	color: rgb(0,0,0);
+	font-family: "Helvetica", sans-serif;
+}
+a{
+	text-decoration: none;
+}
+.exampleQuote{
+	background-color: rgb(238,238,238);
+	font-family: monospace;
+	font-weight: normal;
+	font-style: italic;
+	/* Can be written shorthand via font: ... */
+	line-height: 1.5em; /* 150% of text size */
+	text-align: justify;
+	text-decoration: none;
+}
+.loremIpsumClass{
+	color: #002699
+}
+#mainHeading{
+	font-family: fantasy;
+}
+#generalOverviewInfo{
+	background: rgb(230,230,230);
+	width: 70%;
+	height: 160px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	margin: 15px 0px 25px 25px;
+	border: 2px groove #aaa;
+	padding: 6px;
+}
+#loremIpsumImage{
+	width: 40%;
+	border: 6px groove #bbb;
+	position: relative;
+	top: 10px;
+	left: 95px;
+	z-index: 2;
+	transform: rotate(7deg);
+}
+#catImage1{
+	position: relative;
+	z-index: 1;
+}
+#catImage2{
+	position: absolute;
+	z-index: 3;
+	width: 50px;
+	top: 920px;
+	left: 550px;
+}
+#dogImage1{
+	width: 100px;
+	float: right;
+	margin-left: 0px;
+	margin-bottom: 0px;
+}
+#container{
+	width: 40%;
+	margin: auto;
+	border: 20px solid #ccc;
+	border-top: 10px solid purple;
+	padding: 15px;
+}
+#fillerText{
+	
+}
+#externalReferences{
+	float: right;
+	width: 39%;
+	margin-left: 30px;
+}
+#googleLogo{
+	
+}
+#footer{
+	background-color: #aaa;
+	color: #fff;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	border: 16px solid #aaa;
+	clear: both;
+}
